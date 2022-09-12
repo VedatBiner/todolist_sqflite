@@ -18,9 +18,7 @@ class Todo {
     return {
       'id' : id,
       'title' : title,
-      // sqflite tarihi string olarak tutuyor.
       'creationDate' : creationDate.toString(),
-      // sqflite boolean değeri int olarak tutabiliyor
       'isChecked' : isChecked ? 1 : 0,
     };
   }
@@ -28,7 +26,6 @@ class Todo {
   // debug fonksiyonu
   @override
   String toString(){
-    return 'Todo(id : $id, title : $title, creationDate : $creationDate, isChecked : $isChecked)';
+    return 'Todo(id:$id, title:$title, creationDate : $creationDate, ischecked : $isChecked)';
   }
-
 }

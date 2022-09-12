@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-// import 'package:sqflite/sqlite_api.dart';
 import '../models/db_model.dart';
 import '../models/todo_model.dart';
 import '../widgets/user_input.dart';
 import '../widgets/todo_list.dart';
-import '../widgets/todo_card.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -47,3 +45,4 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+

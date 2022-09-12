@@ -10,7 +10,6 @@ class UserInput extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 8),
-      // color: const Color(0xFFDAB5FF),
       child: Row(
         children: [
           Expanded(
